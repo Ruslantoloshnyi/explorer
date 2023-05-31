@@ -1,0 +1,30 @@
+.header_wrapper {
+    margin-left: 350px;
+    margin-right: 350px;
+
+    .header-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+        margin-top: 50px;
+        font-family: 'Montserrat';
+
+        .header-heading__head {
+            font-size: 42px;
+        }
+
+        .header-heading__subhead {
+            font-size: 16px;
+        }
+        
+    }
+
+    .header-menu {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        margin-top: 50px;
+        
+    }
+}
