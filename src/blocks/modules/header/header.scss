@@ -1,3 +1,8 @@
+a,
+a:visited {
+    text-decoration: none;
+}
+
 .header_wrapper {
     margin-left: 350px;
     margin-right: 350px;
@@ -17,7 +22,7 @@
         .header-heading__subhead {
             font-size: 16px;
         }
-        
+
     }
 
     .header-menu {
@@ -25,6 +30,17 @@
         justify-content: space-between;
         text-transform: uppercase;
         margin-top: 50px;
-        
+
+        .header-menu__item {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 14px;
+            letter-spacing: 1.3px;
+            text-transform: uppercase;
+            
+        }
+
     }
 }
