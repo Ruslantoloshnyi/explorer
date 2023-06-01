@@ -3,6 +3,11 @@ a:visited {
     text-decoration: none;
 }
 
+.background {
+    background-image: url('../../../img/priroda5.jpg');
+    background-size: cover;
+}
+
 .header_wrapper {
     margin-left: 22%;
     margin-right: 22%;
@@ -12,7 +17,7 @@ a:visited {
         flex-direction: column;
         align-items: center;
         text-transform: uppercase;
-        margin-top: 50px;
+        padding-top: 50px;
         font-family: 'Montserrat';
 
         .header-heading__head {
@@ -30,15 +35,17 @@ a:visited {
         justify-content: space-between;
         text-transform: uppercase;
         margin-top: 50px;
+        margin-bottom: 70px;
 
         .header-menu__item {
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 11px;
             line-height: 14px;
             letter-spacing: 1.3px;
             text-transform: uppercase;
+            color: black;
             
         }
 

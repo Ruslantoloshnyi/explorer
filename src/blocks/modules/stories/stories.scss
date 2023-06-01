@@ -1,0 +1,116 @@
+.stories_wrapper {
+    margin-left: 8%;
+    margin-right: 8%;
+
+
+    .stories {
+        text-align: center;
+        margin-top: 75px;
+
+        .stories__head {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 40px;
+            color: #333333;
+        }
+
+        .stories__subhead {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 33px;
+            color: #A9AFB3;
+            margin-top: 25px;
+        }
+
+        .stories-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 50px;
+
+            .stories-content-block {
+                width: 32%;
+
+                .stories-content-block__image {
+                    position: relative;              
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+
+                    .stories-content-block__image-autor {
+
+                        img {
+                            height: 15%;
+                            width: auto;
+                            position: absolute;
+                            top: 62%;
+                            left: 5%;
+                        }
+
+                        .stories-content-block__autor {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 1.5vw;
+                            line-height: 19px;
+                            position: absolute;
+                            top: 50%;
+                            left: 17%;
+                            color: #ffffff;
+                        }
+
+                        .stories-content-block__date {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 1.5vw;
+                            line-height: 19px;
+                            position: absolute;
+                            top: 60%;
+                            left: 17%;
+                            color: #ffffff;
+                        }
+                    }
+
+
+                }
+
+                .stories-content-block__text {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+
+        .stories__link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+
+            a {
+                margin-left: 10px;
+                color: #8D4FDB;
+            }
+        }
+    }
+
+
+
+
+}

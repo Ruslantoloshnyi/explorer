@@ -7,10 +7,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 70px;
+    
 
     .content__image {
-
+        background-color: #FFFFFF;
         width: 100%;
 
         div {
@@ -41,6 +41,7 @@
             text-align: justify;
             padding-left: 5%;
             padding-right: 5%;
+            padding-bottom: 30px;
 
             p {
                 font-family: 'Lato';
@@ -85,7 +86,7 @@
             background-color: #8D4FDB;
             color: #FFFFFF;
             padding: 10px 25px;
-            border-radius: 5px 5px 5px 5px;            
+            border-radius: 5px 5px 5px 5px;
         }
     }
 }
