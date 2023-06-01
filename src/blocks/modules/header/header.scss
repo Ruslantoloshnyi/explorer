@@ -21,6 +21,7 @@ a:visited {
         text-transform: uppercase;
         padding-top: 50px;
         font-family: 'Montserrat';
+        color: #dbdbdb;
 
         .header-heading__head {
             font-size: 42px;
@@ -28,9 +29,11 @@ a:visited {
 
         .header-heading__subhead {
             font-size: 16px;
+
             @include _768() {
                 margin-bottom: 50px;
             }
+
             @include _480() {
                 font-size: 14px;
             }
@@ -47,7 +50,7 @@ a:visited {
         justify-content: space-between;
         text-transform: uppercase;
         margin-top: 50px;
-        margin-bottom: 70px;
+        margin-bottom: 70px;        
 
         @include _768() {
             display: none;
@@ -61,7 +64,13 @@ a:visited {
             line-height: 14px;
             letter-spacing: 1.3px;
             text-transform: uppercase;
-            color: black;
+            color: #dbdbdb;
+
+            &:hover {
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+            }
 
         }
 

@@ -128,12 +128,18 @@
             line-height: 30px;
 
             @include _480() {
-                font-size: 13px;
+                font-size: 12px;
             }
 
             a {
-                margin-left: 10px;
+                margin-left: 20px;
                 color: #8D4FDB;
+
+                &:hover {
+                    -webkit-transform: scale(1.2);
+                    -ms-transform: scale(1.2);
+                    transform: scale(1.2);
+                }
             }
         }
     }
