@@ -1,0 +1,19 @@
+// About-us
+.about {
+    background-color: #ffffff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    padding: 30px 100px 30px 100px;
+
+    @include _768() {
+        padding: 30px 50px 30px 50px;
+    }
+
+    @include _480() {
+        padding: 30px 10px 30px 10px;
+    }
+}
